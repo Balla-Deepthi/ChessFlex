@@ -7,22 +7,22 @@
 }
 .container
 {
-    height: 240px;
-    width: 240px;
+    height: 320px;
+    width: 320px;
     border: 1px solid black;
     /* margin: 30px; */
-    left: 0;
+    /* left: 0;
     bottom: 0;
     top: 0;
     right: 0;
     margin: auto;
-    position: absolute;
+    position: absolute; */
     
     
 }
 .subcontainer
 {
-    height: 30px;
+    height: 40px;
     width: 100%;
     border: 1px solid black;
     display: flex;
@@ -30,13 +30,13 @@
 }
 .item
 {
-height: 30px;
-width: 30px;
+height: 40px;
+width: 40px;
 border: 1px solid black;
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 25px;
+font-size: 35px;
 }
 
 .subcontainer:nth-child(odd) .item:nth-child(odd),
