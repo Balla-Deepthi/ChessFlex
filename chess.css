@@ -1,0 +1,38 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 240px;
+    width: 240px;
+    border: 1px solid black;
+    margin: 30px;
+}
+.subcontainer
+{
+    height: 30px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    
+}
+.item
+{
+height: 30px;
+width: 30px;
+border: 1px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+}
+
+.subcontainer:nth-child(odd) .item:nth-child(odd),
+.subcontainer:nth-child(even) .item:nth-child(even)
+{
+    background-color: black;
+    color: white;
+}
